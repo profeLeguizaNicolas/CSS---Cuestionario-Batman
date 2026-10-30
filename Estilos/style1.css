@@ -1,0 +1,68 @@
+body{
+    font-family: monospace;
+    margin: 0px;
+    color: goldenrod;
+    background-image: url(../Imagenes/fondop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+}
+.center{
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+}
+input{
+    background-color: black;
+    color: goldenrod;
+    font-family: 'Courier New', Courier, monospace;
+    border: rgb(24, 24, 24) 2px solid;
+}
+
+header{
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+   
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+fieldset{
+    border: 2px goldenrod solid;
+    font-size: 20px;
+    border-radius: 10px;
+}
+form{
+    width: 91vw;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+article{    
+    display: flex;
+    justify-content: center;
+    width: 97vw;
+   
+}
+hr{
+    border: goldenrod 1px solid;
+}
+
+button{
+    padding: 20px;
+    background-color: black;
+    color: goldenrod;
+    font-size: 20px;
+    border: 1px solid goldenrod ;
+    border-radius: 20px;
+}
+button:hover{
+    padding: 20px;
+    background-color: goldenrod;
+    color: black;
+    font-size: 20px;
+    border: 1px solid black ;
+    border-radius: 20px;
+    cursor: pointer;
+}
